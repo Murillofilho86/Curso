@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Layout.master.cs" Inherits="Projeto.Web.Template.Layout" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Projeto CRUD</title>
+
+    <link href="../Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+
+
+</head>
+<body class="container">
+
+    <div class="well" style="height: 100px">
+        <h3 style="text-align: center">Projeto - Controle WebForms</h3>
+    </div><br /><br />
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
